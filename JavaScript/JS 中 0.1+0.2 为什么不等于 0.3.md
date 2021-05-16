@@ -5,7 +5,6 @@ tags:
   - JS 原理
 categories:
   - JavaScript
-  - 其它
 ---
 
 先看两个简单但诡异的代码：
