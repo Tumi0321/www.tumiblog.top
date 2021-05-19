@@ -2,7 +2,7 @@
 title: ECMAScript——相关介绍（一）
 date: 2021-5-3
 tags:
-  - ECMAScript
+  - ES6
 categories:
   - JavaScript
 ---
