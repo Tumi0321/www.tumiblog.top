@@ -5,6 +5,7 @@ tags:
   - JS 基础
 categories:
   - JavaScript
+
 ---
 
 ::: tip
@@ -891,3 +892,4 @@ try {
   }
 }
 ```
+
