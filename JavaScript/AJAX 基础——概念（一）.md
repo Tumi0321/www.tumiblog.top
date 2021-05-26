@@ -277,7 +277,7 @@ Content-encoding: gzip
 
 
 
-更多状态码可以参考[《HTTP 状态码》](https://tumiblog.top/blogs/浏览器/HTTP 状态码.html#常见状态码)
+更多状态码可以参考[《HTTP 状态码》](https://tumiblog.top/blogs/%E6%B5%8F%E8%A7%88%E5%99%A8/HTTP%20%E7%8A%B6%E6%80%81%E7%A0%81.html#%E5%B8%B8%E8%A7%81%E7%8A%B6%E6%80%81%E7%A0%81)
 
 
 
