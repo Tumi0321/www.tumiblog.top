@@ -285,7 +285,8 @@ axios('/user/12345');
     password: 's00pers3cret'
   },
 
-  // responseType 表示服务器响应的数据类型，可以是 'arraybuffer', 'blob', 'document', 'json', 'text', 'stream'
+  // responseType 表示服务器响应的数据类型
+  // 可以是 'arraybuffer', 'blob', 'document', 'json', 'text', 'stream'
   responseType: 'json', // default
 
   // responseEncoding 指示用于解码响应的编码
@@ -311,7 +312,9 @@ axios('/user/12345');
    // maxContentLength 定义允许的响应内容的最大尺寸
   maxContentLength: 2000,
 
-  // validateStatus 定义对于给定的 HTTP 响应状态码是 resolve 或 reject  promise 。如果 validateStatus 返回 `true` (或者设置为 `null` 或 `undefined`)，promise 将被 resolve; 否则，promise 将被 rejecte
+  // validateStatus 定义对于给定的 HTTP 响应状态码是 resolve 或 reject  promise 。
+  // 如果 validateStatus 返回 `true` (或者设置为 `null` 或 `undefined`)
+  // promise 将被 resolve; 否则，promise 将被 rejecte
   validateStatus: function (status) {
     return status >= 200 && status < 300; // default
   },
@@ -326,7 +329,8 @@ axios('/user/12345');
   // 如果两者都指定，则使用 socketPath
   socketPath: null, // default
 
-  // httpAgent 和 httpsAgent 分别在 node.js 中用于定义在执行 http 和 https 时使用的自定义代理。允许像这样配置选项：
+  // httpAgent 和 httpsAgent 分别在 node.js 中用于定义在执行 http 和 https 时使用的自定义代理。
+  // 允许像这样配置选项：
   // keepAlive 默认没有启用
   httpAgent: new http.Agent({ keepAlive: true }),
   httpsAgent: new https.Agent({ keepAlive: true }),
