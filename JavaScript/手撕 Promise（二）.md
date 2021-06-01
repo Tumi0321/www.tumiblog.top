@@ -7,7 +7,7 @@ categories:
   - JavaScript
 ---
 
-为了使每一步都可以回顾之前的代码，所以并没有对每一个步骤的代码进行拆分。为了更好的阅读，您可以只看用注释标注的地方，每一行被注释标注的都是新增的代码
+为了使每一步都可以回顾之前的代码，所以并没有对每一个步骤的代码进行拆分。为了更好的阅读，您可以只看用注释标注的地方，每一行被注释标注的都是新增的代码。
 
 
 
@@ -21,7 +21,7 @@ categories:
 4. resolve 和 reject 分别可以将 Promise 实例状态从 pending 变为 fulfilled 和 rejected，并设置当前值 promiseResult
 5. 除了 resolve 和 reject 还有 throw 也可以将状态变为 rejected
 6. promise 状态只能由 pending 变为其它两种状态
-7. 当 promise 执行一个同步任务时，只有当状态为 fulfilled 时，才会执行 onResolved，状态为 reject 执行 onRejected
+7. 当 promise 执行一个同步任务时，只有当状态为 fulfilled 时，才会执行 onResolved，状态为 rejected 执行 onRejected
 8. 当 promise 执行一个异步任务时，此时状态为 pending，只有状态发生改变时才会执行 `then` 回调
 9. `then` 方法可以执行多个回调
 10. `then` 方法可以返回一个基本类型数据或者 Promise 实例，或者抛出一个错误
