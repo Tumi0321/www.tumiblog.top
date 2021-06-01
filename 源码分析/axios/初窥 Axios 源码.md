@@ -47,29 +47,6 @@ categories:
 
 
 
-## instance 与 axios 的区别
-
-
-
-相同：
-
-
-
-- 都是一个能发任意支持请求的函数：request(config)
-- 都有发任意支持请求的方法：get()、post()、put()、delete()
-- 都有默认配置和拦截器的属性：defaults、interceptors
-
-
-
-不同：
-
-
-
-- 传入的 config 配置值可能不一样
-- instance 没有  axios 后面添加的一些方法: create()、CancelToken()、all()
-
-
-
 ## 入口文件
 
 
