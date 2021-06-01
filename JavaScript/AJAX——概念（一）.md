@@ -1,5 +1,5 @@
 ---
-title: AJAX 基本使用——概念（一）
+title: AJAX——概念（一）
 date: 2021-5-25
 tags:
   - AJAX
