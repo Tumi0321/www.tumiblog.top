@@ -559,7 +559,7 @@ source.cancel('Operation canceled by the user.');
 
 
 
-还可以通过传递一个 executor 函数到 `CancelToken` 的构造函数来创建 cancel token：
+还可以通过传递一个 executor 函数到 `CancelToken` 的构造函数来创建 cancel token： 
 
 
 
