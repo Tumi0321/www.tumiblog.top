@@ -20,8 +20,8 @@ categories:
 ├─/dist/                            # 项目输出目录
 ├─/lib/                             # 项目源码目录
 │  ├─/adapters/                     # 定义请求适配器目录
-│    │  ├─http.js                   # 实现 http 适配器(包装 http 包)
-│    │  ├─xhr.js                    # 实现 xhr 适配器(包装 xhr 对象)
+│  │  ├─http.js                     # 实现 http 适配器(包装 http 包)
+│  │  ├─xhr.js                      # 实现 xhr 适配器(包装 xhr 对象)
 │  ├─/cancel/                       # 定义取消功能
 │  ├─/core/                         # 一些核心功能
 │  │  ├─Axios.js                    # axios 的核心主类
